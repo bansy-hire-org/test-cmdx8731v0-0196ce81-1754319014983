@@ -1,2 +1,24 @@
-# test-cmdx8731v0-0196ce81-1754319014983
-Temporary repository for test cmdx8731v0003unnwm3hnikf6 by user 0196ce81-511d-438d-8e84-c18d3a3d6726
+# Order Management Microservice
+
+A simple order management microservice built with Spring Boot.
+
+## Prerequisites
+
+*   Java 21
+*   Maven
+*   Docker (optional, for containerization)
+*   Kubernetes (optional, for deployment)
+
+## Building and Running
+
+1.  Clone the repository.
+2.  Build the application using Maven: `mvn clean install`
+3.  Run the application: `java -jar target/order-management-1.0.0.jar`
+
+## API Endpoints
+
+*   `GET /api/orders`: Get all orders.
+*   `GET /api/orders/{id}`: Get an order by ID.
+*   `POST /api/orders`: Create a new order.
+*   `PUT /api/orders/{id}`: Update an existing order.
+*   `DELETE /api/orders/{id}`: Delete an order.
